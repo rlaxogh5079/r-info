@@ -26,7 +26,14 @@ html, body {
     position:absolute;
     top:0vh;
     text-align:center;
-    font-size:4em;
+    font-size:3em;
+}
+
+.list {
+    display:block;
+    text-align:center;
+    color: #fff555;
+    text-decoration: none;
 }
 
 .home{
@@ -67,6 +74,16 @@ html, body {
 .blind {
     display:none;
 }
+
+.effect:hover{
+    content:'';
+    height:0.1em;
+    position:absolute;
+    background-color:#fff555;
+    width:10%;
+    transition: 0.5s;
+}
+
 
 @keyframes bounce {
     0%{
